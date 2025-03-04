@@ -6,9 +6,9 @@
 	"actor": "https://drainlabs.github.io/aptestpost/actors/earlyadopter.json",
 
 	"object": {
-		"id": "https://drainlabs.github.io/aptestpost/hello-world",
+		"id": "https://drainlabs.github.io/aptestpost/create-hello-world",
 		"type": "Note",
-		"published": "2025-03-02T17:17:11Z",
+		"published": "2025-03-03T17:17:11Z",
 		"attributedTo": "https://drainlabs.github.io/aptestpost/actors/earlyadopter.json",
     "inReplyTo": "https://mastodon.social/@earlyadopter/114101570562968262",
 		"content": "<p>Hello world</p>",
