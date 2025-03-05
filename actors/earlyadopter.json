@@ -7,7 +7,8 @@
 	"id": "https://drainlabs.github.io/aptestpost/actors/earlyadopter.json",
 	"type": "Person",
 	"preferredUsername": "earlyadopter",
-	"inbox": "https://b90ech2g3a.execute-api.us-east-1.amazonaws.com/default/inbox",
+	"inbox": "https://arrow-project-mclb.vercel.app/api/inbox",
+	"outbox": "https://arrow-project-mclb.vercel.app/api/inbox",
 
 	"publicKey": {
 		"id": "https://drainlabs.github.io/aptestpost/actors/earlyadopter.json#main-key",
