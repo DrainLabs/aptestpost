@@ -7,7 +7,7 @@
 	"id": "https://drainlabs.github.io/aptestpost/actors/actor",
 	"type": "Person",
 	"preferredUsername": "earlyadopter",
-	"inbox": "https://drainlabs.github.io/aptestpost/inbox",
+	"inbox": "https://arrow-project-mclb.vercel.app/api/inbox",
 
 	"publicKey": {
 		"id": "https://drainlabs.github.io/aptestpost/actors/actor#main-key",
