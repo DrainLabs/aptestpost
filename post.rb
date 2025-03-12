@@ -15,7 +15,8 @@ date          = Time.now.utc.httpdate
 keypair       = OpenSSL::PKey::RSA.new(File.read('private.pem'))
 signed_string = "(request-target): post /inbox\nhost: mastodon.social\ndate: #{date}\ndigest: #{digest}"
 signature     = Base64.strict_encode64(keypair.sign(OpenSSL::Digest::SHA256.new, signed_string))
-header        = 'keyId="`https://drainlabs.github.io/aptestpost/actors/actor#main-key",headers="(request-target) host date digest",signature="' + signature + '"'
+header        = 'keyId="https://drainlabs.github.io/aptestpost/actors/earlyadopter.json#main-key",headers="(request-target) host date digest",signature="' + signature + '"'
+
 
 response = HTTP.headers({ 'Host': 'mastodon.social', 'Date': date, 'Signature': header, 'Digest': digest, 'Content-Type': 'application/activity+json' })
   .post('https://mastodon.social/inbox', body: document)
